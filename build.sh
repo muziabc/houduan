@@ -8,7 +8,6 @@ docker run --rm \
    maven:3.3.3-jdk-8 mvn clean package -U
 
 mv $PROJECT_HOME/*-provider/target/*-provider-*.jar $PROJECT_HOME/user-center-provider/target/demo.jar
-
 echo "构建镜像"
 docker build -t $APP_NAME:v$VERSION .
 
