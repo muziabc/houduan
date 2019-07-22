@@ -11,13 +11,13 @@
 	</parent>
 
 	<groupId>com.deepexi</groupId>
-	<artifactId>user-center</artifactId>
+	<artifactId>deepexi-trade-center</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>user-center-api</module>
-		<module>user-center-provider</module>
+		<module>deepexi-trade-center-api</module>
+		<module>deepexi-trade-center-provider</module>
 	</modules>
 
 	<build>
